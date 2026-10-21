@@ -55,7 +55,9 @@ trace._tlf_children = previousTraces;
 ...
 radiant.each(tracesToDelete, function (_, t) { self._destroyTraceTree(t); });
 [/code]
-_destroyAllTraces also marks every trace dead before destroying it. Merging this into trace.js directly would be the cleanest option. I'm happy to share the full file.
+_destroyAllTraces also marks every trace dead before destroying it. Merging this into trace.js directly would be the cleanest option.
+
+Full mod, measurements and this report (MIT licensed): [url=https://github.com/Franio2018/stonehearth-utils]github.com/Franio2018/stonehearth-utils[/url]
 
 [h2]Not fixed yet[/h2]
 After about 3 hours the UI's JS heap grows again (391 to 670 MB) while trace, view and DOM counts stay flat, so there is a second, unrelated source. The main process's native memory also grows steadily (about 22 MB/min).

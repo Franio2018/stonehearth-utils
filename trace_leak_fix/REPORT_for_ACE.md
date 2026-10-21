@@ -84,8 +84,10 @@ radiant.each(tracesToDelete, function (_, t) { self._destroyTraceTree(t); });
 ```
 
 `_destroyAllTraces` also marks every trace dead before destroying it. The
-complete file is `ui/trace_leak_fix.js` in the attached mod. Merging it into
-`trace.js` directly would be the cleanest option.
+complete file is
+[`trace_leak_fix/ui/trace_leak_fix.js`](https://github.com/Franio2018/stonehearth-utils/blob/main/trace_leak_fix/ui/trace_leak_fix.js)
+(MIT licensed). Merging it into `trace.js` directly would be the cleanest
+option.
 
 ## Not fixed yet
 
