@@ -1,0 +1,12 @@
+{
+   "info": {
+      "name": "Trace Leak Fix",
+      "namespace": "trace_leak_fix",
+      "version": 3
+   },
+   "ui": {
+      "js": [
+         "file(ui/trace_leak_fix.js)"
+      ]
+   }
+}

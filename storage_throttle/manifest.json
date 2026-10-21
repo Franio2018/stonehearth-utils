@@ -1,0 +1,11 @@
+{
+   "info": {
+      "name": "Storage Throttle",
+      "namespace": "storage_throttle",
+      "version": 3
+   },
+   "dependencies": [
+      "stonehearth_ace"
+   ],
+   "server_init_script": "file(storage_throttle_server)"
+}

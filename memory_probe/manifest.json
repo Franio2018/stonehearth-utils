@@ -1,0 +1,9 @@
+{
+   "info": {
+      "name": "Memory Probe",
+      "namespace": "memory_probe",
+      "version": 3
+   },
+   "server_init_script": "file(memory_probe_server)",
+   "client_init_script": "file(memory_probe_client)"
+}

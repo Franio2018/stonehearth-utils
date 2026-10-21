@@ -1,0 +1,7 @@
+# Raw game logs and crash events contain local paths
+*.log
+logs/**/*.txt
+
+# Not part of the published set
+rotating_autosave/
+Fix-StonehearthX64.ps1
