@@ -27,3 +27,7 @@ included.
 
 [trace_leak_fix/REPORT_for_ACE.md](trace_leak_fix/REPORT_for_ACE.md) is the bug
 report sent to the ACE developers.
+
+## License
+
+[MIT](LICENSE). Feel free to merge the fix into ACE or the base game.
